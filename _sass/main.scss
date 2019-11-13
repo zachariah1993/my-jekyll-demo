@@ -1,0 +1,34 @@
+body, html {
+    background-color: $base-color;
+}
+
+body, ul {
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* Content styles here */
+
+.main-copy {
+    padding: 25px;
+    display:flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+
+}
+
+/* Slick Slider item styles */
+.hero-class {
+    min-height:300px;
+}
+
+.slick-item {
+    display:block;
+    width:100%;
+    min-height:300px;
+    background-color:pink;
+}
+
+.copy {
+    width:600px;
+}
